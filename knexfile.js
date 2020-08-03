@@ -13,16 +13,16 @@ const baseConfig = {
 const customConfig = {
   development: {
     connection: {
-      database: 'nc_news'
-      // user,
-      // password
+      database: 'nc_news',
+      username: "mozes",
+      password: "secret"
     }
   },
   test: {
     connection: {
-      database: 'nc_news_test'
-      // user,
-      // password
+      database: 'nc_news_test',
+      username: "mozes",
+      password: "secret"
     }
   }
 };
