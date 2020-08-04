@@ -7,7 +7,8 @@
     "setup-dbs": "psql -f ./db/setup.sql",
     "seed": "knex seed:run",
     "test": "jest --watch",
-    "migrate-make": "knex migrate:make"
+    "migrate-make": "knex migrate:make",
+    "print": "psql -f ./db/setup.sql > query-output.txt"
   },
   "repository": {
     "type": "git",
