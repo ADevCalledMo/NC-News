@@ -1,4 +1,7 @@
-exports.formatDates = list => {};
+exports.formatDates = (list) => {
+    const formattedArray = [];
+    return formattedArray;
+};
 
 exports.makeRefObj = list => {};
 
